@@ -54,6 +54,8 @@ p, h1,h2{
     padding: 5px 15px;
     color: white;
     border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
 }
 /* hero section's style is ended here */
 
@@ -64,7 +66,7 @@ p, h1,h2{
 }
 .left-side-inner-img{
     width: 60%;
-    padding-left: 25%;
+    padding-left: 30%;
     margin-bottom: -5px;
 }
 .right-side-inner-txt{
@@ -101,6 +103,42 @@ p, h1,h2{
     background: rgb(71, 73, 73);
     color: white;
 }
+.banking{
+    font-weight: bold;
+}
 /* Services section's style is ended here */
 
 /* Branch & Working hours section's style is started here  */
+.left-side-txt h3, .right-side-txt h3{
+    text-align: center;
+}
+.branches, .working-time{
+    text-align: center;
+    font-style: italic;
+}
+.branches p, .working-time p{
+    margin: 5px;
+}
+.branches span{
+    color: rgb(226, 150, 8);
+    font-weight: bold;
+}
+.working-time span{
+    color: red;
+    font-weight: bold;
+}
+/* Branch & Working hours section's style is ended here  */
+
+/* footer section's style started here */
+.footer{
+    background: #0b0d17;
+    padding: 20px;
+    text-align: center;
+}
+.footer-inner span{
+    color: orangered;
+}
+.footer-inner p{
+    color: rgb(199, 191, 191);
+}
+/* footer section's style ended here */
