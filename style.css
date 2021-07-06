@@ -21,6 +21,7 @@ p{
 p, h1,h2{
     color: rgb(105, 105, 105);
 }
+
 .container{
     width: 85%;
     margin: 0 auto;
@@ -29,7 +30,9 @@ p, h1,h2{
     display: flex;
     justify-content: space-between;
 }
+/* common style is ended here */
 
+/* hero section's style is started here */
 .right-side-img, .left-side-img{
     width: 40%;
 }
@@ -52,7 +55,9 @@ p, h1,h2{
     color: white;
     border-radius: 20px;
 }
-/* hero section's style is ended and about me section started here */
+/* hero section's style is ended here */
+
+/* about me section's style is started here */
 .about-me-section{
     background: url(./images/shapes/7.png);
     padding-top: 30px;
@@ -65,3 +70,25 @@ p, h1,h2{
 .right-side-inner-txt{
     margin-top: 15%;
 }
+/* about-me section's style is ended here */
+
+/* Recipes section's style is started here */
+.heading-and-desc{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.item{
+    width: 28%;
+    box-shadow: 0px 0px 20px rgb(185, 183, 183);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+.item h3{
+    background: rgb(112, 112, 112);
+    border-radius: 5px;
+    color: white;
+}
+/* Recipes section's style is ended here */
+
