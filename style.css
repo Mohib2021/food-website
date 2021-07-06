@@ -73,7 +73,7 @@ p, h1,h2{
 /* about-me section's style is ended here */
 
 /* Recipes section's style is started here */
-.heading-and-desc{
+.heading{
     width: 50%;
     margin: 0 auto;
     text-align: center;
@@ -89,6 +89,18 @@ p, h1,h2{
     background: rgb(112, 112, 112);
     border-radius: 5px;
     color: white;
+    padding: 5px;
 }
 /* Recipes section's style is ended here */
 
+/* Services section's style is started here */
+.space{
+    margin-bottom: 20px;
+}
+.text h3{
+    background: rgb(71, 73, 73);
+    color: white;
+}
+/* Services section's style is ended here */
+
+/* Branch & Working hours section's style is started here  */
