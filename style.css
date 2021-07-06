@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 35px;
+}
+section{
+    margin-top: 3%;
+}
+img{
+    width: 100%;
+}
+p{
+    font-size: 13px;
+    margin: 15px 0px;
+}
+p, h1,h2{
+    color: rgb(105, 105, 105);
+}
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
+.container-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-side-img, .left-side-img{
+    width: 40%;
+}
+.right-side-txt, .left-side-txt{
+    width: 45%;
+}
+.left-side-inner-txt{
+    margin-top: 30%;
+}
+.heading-color{
+    color: orange;
+}
+.button{
+    margin-top: 35px;
+}
+.btn-inner{
+    text-decoration: none;
+    background-image:linear-gradient(to right, orange, orangered);
+    padding: 5px 15px;
+    color: white;
+    border-radius: 20px;
+}
+/* hero section's style is ended and about me section started here */
+.about-me-section{
+    background: url(./images/shapes/7.png);
+    padding-top: 30px;
+}
+.left-side-inner-img{
+    width: 60%;
+    padding-left: 25%;
+    margin-bottom: -5px;
+}
+.right-side-inner-txt{
+    margin-top: 15%;
+}
